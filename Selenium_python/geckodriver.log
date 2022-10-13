@@ -1,0 +1,13 @@
+1658032087848	geckodriver	INFO	Listening on 127.0.0.1:49907
+1658032089815	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49908" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileN70ZOo"
+1658032097633	Marionette	INFO	Marionette enabled
+1658032097697	Marionette	INFO	Listening on port 49919
+WebDriver BiDi listening on ws://localhost:49908
+Read port: 49919
+1658032099409	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 769))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 421))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileN70ZOo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49908/devtools/browser/67678b1c-027a-463b-a3d1-af30ee3ba3f4
+1658032146755	Marionette	INFO	Stopped listening on port 49919
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 906: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
